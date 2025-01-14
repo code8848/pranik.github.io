@@ -1,4 +1,4 @@
-### Run in terminal
+### For local preview, Run in terminal...
 
 rm -rf _site/ .jekyll-cache/ .bundle/
 bundle install
@@ -7,3 +7,9 @@ bundle exec jekyll serve
 ### To add page
 -> _data/navigation.yml 
 ->
+
+## Commit and push
+Go to termal and...
+$ git commit -m "my comment"
+$ get push
+or commit and leave a comment (before clicking commit). If comment not entered commit gets canceled
