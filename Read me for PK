@@ -1,0 +1,9 @@
+### Run in terminal
+
+rm -rf _site/ .jekyll-cache/ .bundle/
+bundle install
+bundle exec jekyll serve
+
+### To add page
+-> _data/navigation.yml 
+->

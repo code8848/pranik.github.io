@@ -1,0 +1,38 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   Read me for PK
+#	modified:   _config.yml
+#	modified:   _data/navigation.yml
+#	renamed:    docs/_pages/404.md -> _pages/404.md
+#	new file:   _pages/CV.md
+#	renamed:    docs/_pages/about.md -> _pages/about.md
+#	renamed:    docs/_pages/archive-layout-with-content.md -> _pages/archive-layout-with-content.md
+#	renamed:    docs/_pages/category-archive.md -> _pages/category-archive.md
+#	renamed:    docs/_pages/collection-archive.html -> _pages/collection-archive.html
+#	renamed:    docs/_pages/edge-case.md -> _pages/edge-case.md
+#	renamed:    docs/_pages/home.md -> _pages/home.md
+#	renamed:    docs/_pages/lorem-ipsum.md -> _pages/lorem-ipsum.md
+#	renamed:    docs/_pages/markup.md -> _pages/markup.md
+#	renamed:    docs/_pages/page-a.md -> _pages/page-a.md
+#	renamed:    docs/_pages/page-archive.html -> _pages/page-archive.html
+#	renamed:    docs/_pages/page-b.md -> _pages/page-b.md
+#	renamed:    docs/_pages/pets.md -> _pages/pets.md
+#	renamed:    docs/_pages/portfolio-archive.md -> _pages/portfolio-archive.md
+#	renamed:    docs/_pages/post-archive-feature-rows.html -> _pages/post-archive-feature-rows.html
+#	renamed:    docs/_pages/recipes-archive.md -> _pages/recipes-archive.md
+#	renamed:    docs/_pages/sitemap.md -> _pages/sitemap.md
+#	renamed:    docs/_pages/splash-page.md -> _pages/splash-page.md
+#	renamed:    docs/_pages/tag-archive.md -> _pages/tag-archive.md
+#	renamed:    docs/_pages/terms.md -> _pages/terms.md
+#	renamed:    docs/_pages/year-archive.md -> _pages/year-archive.md
+#	modified:   docs/_config.yml
+#	modified:   docs/_data/navigation.yml
+#	deleted:    docs/_pages/sample-page.md
+#	modified:   package-lock.json
+#
