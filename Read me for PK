@@ -14,5 +14,5 @@ bundle exec jekyll serve
 ## Commit and push
 Go to termal and...
 $ git commit -m "my comment"
-$ get push
+$ git push
 or commit and leave a comment (before clicking commit). If comment not entered commit gets canceled
