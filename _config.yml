@@ -19,9 +19,9 @@ locale                   : "en-US"
 title                    : "Pra"
 title_separator          : "-"
 subtitle                 : "Pranik Koirala's home page"
-name                     : &name Pranik Koirala" # &name is a YAML anchor which can be *referenced later
+name                     : &name "Pranik Koirala" # &name is a YAML anchor which can be *referenced later
 description              : "Pra  - Pranik Koirala's virtual space "
-url                      : www.pranikkoirala.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://www.pranikkoirala.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
