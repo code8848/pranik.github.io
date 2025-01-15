@@ -11,15 +11,16 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme             : "mmistakes/minimal-mistakes@master"
+
+minimal_mistakes_skin    : "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Site Settings
 locale                   : "en-US"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Pranik Koirala"
+title                    : "Pra"
 title_separator          : "-"
-subtitle                 : Pranik Koirala's virtual space # site tagline that appears below site title in masthead
-name                     : "Pranik Koirala"
+subtitle                 : "Pranik Koirala's home page"
+name                     : &name Pranik Koirala" # &name is a YAML anchor which can be *referenced later
 description              : "Pra  - Pranik Koirala's virtual space "
 url                      : www.pranikkoirala.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
