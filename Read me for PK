@@ -16,3 +16,7 @@ Go to termal and...
 $ git commit -m "my comment"
 $ git push
 or commit and leave a comment (before clicking commit). If comment not entered commit gets canceled
+
+
+## First page HTML
+_layouts > home.html

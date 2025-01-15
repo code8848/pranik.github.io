@@ -7,3 +7,11 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Target the avatar image with the class u-photo */
+.u-photo {
+    border-radius: 0 !important;  /* Remove the circular border */
+    width: 180px !important;      /* Adjust width as needed */
+    height: 200px !important;     /* Adjust height as needed */
+    border: none !important;
+  }

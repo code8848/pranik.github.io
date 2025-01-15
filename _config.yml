@@ -19,7 +19,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Pra"
 title_separator          : "-"
-subtitle                 : "Pranik Koirala's virtual space"
+subtitle                 : "Pranik Koirala's digital space"
 name                     : "Pranik Koirala"
 description              : # x
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -119,9 +119,13 @@ author:
   location         : "Austin, Texas"
   email            :  "mailto:connectpranik@gmail.com"
   links:
+    
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
+    - label: "Resume PDF"
+      icon: "fas fa-fw fa-file-alt"  # You can use any appropriate icon here.
+      url: "/assets/files/resume.pdf" 
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -149,19 +153,13 @@ footer:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: #"https://twitter.com/pranik8848"
+      url: "https://twitter.com/pranik8848"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: #"https://github.com/code8848"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://github.com/code8848"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/photos_by_pranik/"

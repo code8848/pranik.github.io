@@ -2,10 +2,15 @@
 main:
   - title: "CV"
     url: /CV/
+  - title: "Research"
+    url: /research/
+  - title: "Projects"
+    url: /projects/
   - title: "Blog"
-    url: /yeti/
+    url: /blog/
   - title: "About"
     url: /about/
+
   # - title: "Sample Collections"
   #   url: /collection-archive/
   #- title: "Sitemap"
