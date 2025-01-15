@@ -4,6 +4,9 @@ rm -rf _site/ .jekyll-cache/ .bundle/
 bundle install
 bundle exec jekyll serve
 
+
+## ctr + c or Cmd + c to end local host preview
+
 ### To add page
 -> _data/navigation.yml 
 ->

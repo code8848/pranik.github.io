@@ -19,9 +19,9 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Pra"
 title_separator          : "-"
-subtitle                 : Pranik Koirala's home page # site tagline that appears below site title in masthead
+subtitle                 : Pranik Koirala's virtual space # site tagline that appears below site title in masthead
 name                     : "Pra"
-description              : "Pra  - Pranik Koirala's home page "
+description              : "Pra  - Pranik Koirala's virtual space "
 url                      : www.pranikkoirala.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
