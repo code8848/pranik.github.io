@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Yeti Digital Genius"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
-    url: /about/
   - title: "CV"
     url: /CV/
+  - title: "Blog"
+    url: /yeti/
+  - title: "About"
+    url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  #- title: "Sitemap"
+  #  url: /sitemap/

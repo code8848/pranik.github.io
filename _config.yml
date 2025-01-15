@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Pra"
+title                    : "Pranik Koirala"
 title_separator          : "-"
 subtitle                 : Pranik Koirala's virtual space # site tagline that appears below site title in masthead
-name                     : "Pra"
+name                     : "Pranik Koirala"
 description              : "Pra  - Pranik Koirala's virtual space "
 url                      : www.pranikkoirala.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -31,7 +31,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
+copyright                : "copyright" 2025 Pranik Koirala"
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
