@@ -8,7 +8,8 @@ bundle exec jekyll serve
 ## ctr + c or Cmd + c to end local host preview
 
 ### To add page
--> _data/navigation.yml 
+-> Make a md page in Pages
+-> add it to _data/navigation.yml 
 ->
 
 ## Commit and push
@@ -20,3 +21,15 @@ or commit and leave a comment (before clicking commit). If comment not entered c
 
 ## First page HTML
 _layouts > home.html
+
+## Making posts. (Tags and Categories)
+Make a .md file in >_posts with date and name. Give it tags and category. Category must be same for same topic.
+In page, add \/ to display all posts with given category.
+<ul>
+  {% assign pe_posts = site.posts | where: "category", "pe-exam-prep" %}
+  {% for post in pe_posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+### Problem: The posts is arranged in order or newest first but for trainings, Intro (which is the oldest) must be first.
+#### To solve: add | sort: "date" % in the assign post line of code.
