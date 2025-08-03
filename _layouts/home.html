@@ -82,7 +82,7 @@ layout: archive
       if (response.ok) {
         const data = await response.json();
         if (data.subscription) {
-          message.textContent = "You're subscribed! 🎉 Check your inbox.";
+          message.textContent = "Check your inbox! Confirm your subscription—might be hiding in spam.";
           this.reset();
         } else {
           message.textContent = "Something went wrong. Please try again.";
