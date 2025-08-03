@@ -4,16 +4,101 @@ layout: archive
 
 {{ content }}
 
-<div class="hero" style="background-image: url('/assets/images/k.png');">
+<div class="hero" style="background-image: url('/assets/images/k.png');text-align: center;">
   <div class="hero-content">
     <h1>Welcome to Pranik's digital space</h1>
-    <p>Traffic Engineer | Researcher | Entrepreneur | Photographer</p>
+    <p></p>
    <!-- <a href="/about" class="cta-button">Learn More</a>--> 
+   
+  
+  </a>
+  
   </div>
 </div>
 
+<section id="newsletter" style="padding: 3em 0; text-align: center;">
+  <h2 style="font-size: 1.3em; margin-bottom: 0.2em;">Subscribe to My Newsletter</h2>
+<p style="font-size: 1em; color: #555; margin: 0 0 0.2em 0;">
+  Learning, Building, and Thinking in Public on Transportation, Cities, AI, and the Future
+</p>
+<p style="font-size: 0.7em; color: #555; margin: 0;">
+  Weekly-ish newsletter, because I’m only human
+</p>
 
-<br><br>
+
+  <form id="ck_subscribe_form" style="margin-top: 1.5em;">
+    <input 
+      type="email" 
+      name="email" 
+      placeholder="Enter your email" 
+      required 
+      style="
+        padding: 0.75em 1em; 
+        font-size: 1em; 
+        width: 320px; 
+        max-width: 90%; 
+        border: 1px solid #ccc; 
+        border-radius: 6px;
+      "
+    >
+    <button 
+      type="submit" 
+      style="
+        padding: 0.75em 1.2em; 
+        margin-left: 0.5em; 
+        font-size: 1em; 
+        background-color: black; 
+        color: white; 
+        border: none; 
+        border-radius: 6px; 
+        cursor: pointer;
+        transition: background 0.3s ease;
+      "
+      onmouseover="this.style.backgroundColor='#333'"
+      onmouseout="this.style.backgroundColor='black'"
+    >
+      Subscribe
+    </button>
+  </form>
+
+  <p id="subscribe-message" style="margin-top: 1em; font-style: italic;"></p>
+
+  <script>
+    document.getElementById("ck_subscribe_form").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      const email = this.email.value;
+
+      const response = await fetch("https://api.convertkit.com/v3/forms/YOUR_FORM_ID/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email: email,
+          api_key: "7cHtKkoiCjR4Cp8nbREyHg"
+        })
+      });
+
+      const message = document.getElementById("subscribe-message");
+
+      if (response.ok) {
+        const data = await response.json();
+        if (data.subscription) {
+          message.textContent = "You're subscribed! 🎉 Check your inbox.";
+          this.reset();
+        } else {
+          message.textContent = "Something went wrong. Please try again.";
+        }
+      } else {
+        message.textContent = "Network error. Please try again later.";
+      }
+    });
+  </script>
+</section>
+
+
+
+
+
+
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
