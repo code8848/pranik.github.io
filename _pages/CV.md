@@ -2,7 +2,7 @@
 title: ""
 permalink: /CV/
 layout: single
-date: 2025-01-01
+date: 2025-08-01
 ---
 
 <style>
@@ -60,7 +60,14 @@ date: 2025-01-01
 ## <span class="section-title">Experience</span>
 
 <div>
-  <p class="job-title">Traffic Engineer (EIT),<br> CONSOR Engineers, LLC <span class="job-date">July 2023 – Present</span></p>
+  <p class="job-title">Traffic Engineer,<br>Smart Mobility Group, <br> David Evans and Associates, Inc. <span class="job-date">Feb 2025 – Present</span></p>
+  <p>
+    Participating in multiple projects including traffic operations, traffic design and safety.
+    
+  </p>
+
+
+  <p class="job-title">Traffic Engineer (EIT),<br> CONSOR Engineers, LLC <span class="job-date">July 2023 – Feb 2025</span></p>
   <p>
     Participated in multiple projects including traffic operations, traffic design and safety.
     

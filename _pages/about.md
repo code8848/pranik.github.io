@@ -7,7 +7,7 @@ layout: categories
 
 ---
 
-A simple website with pranik koirala's portfolio from his career as a traffic/transportation engineer, researcher, photographer and entrepreneur.
+This is my personal space — a place for my portfolio, my newsletter, my projects, and the thoughts I choose to share along the way.
 
 
 

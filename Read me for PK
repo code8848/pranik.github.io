@@ -24,7 +24,7 @@ _layouts > home.html
 
 ## Making posts. (Tags and Categories)
 Make a .md file in >_posts with date and name. Give it tags and category. Category must be same for same topic.
-In page, add \/ to display all posts with given category.
+In page, add <ul>..</ul>  to display all posts with given category.
 <ul>
   {% assign pe_posts = site.posts | where: "category", "pe-exam-prep" %}
   {% for post in pe_posts %}
