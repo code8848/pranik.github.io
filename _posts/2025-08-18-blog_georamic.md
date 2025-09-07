@@ -1,5 +1,5 @@
 ---
-title: "The Georamic.com"
+title: "The Idea of Georamic.com"
 excerpt: "A platform for web-based tools for geospatial analysis, with a focus on transportation and urban planning."
 tags:
   - blog
